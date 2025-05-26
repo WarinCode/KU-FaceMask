@@ -186,7 +186,7 @@ const FaceMaskDetection = () => {
           setIsDetecting(false);
         }
       }, "image/jpeg");
-    }, 200);
+    }, 800);
   }, []);
 
   const handleCloseCamera = useCallback(() => {
