@@ -154,7 +154,7 @@ const FaceMaskDetection = () => {
 
         try {
           const { data } = await axios.post(
-            "http://localhost:5000/api/mask-detection",
+            "https://ku-face-mask-backend.onrender.com/api/mask-detection",
             formData,
             {
               headers: {
