@@ -19,7 +19,7 @@ def tflite_predict(input_img):
     output = np.array(interpreter.get_tensor(output_details[0]['index'])).copy()
     return output
 
-origins = ["http://localhost:5173"]
+origins = ["https://ku-face-mask-frontend.vercel.app"]
 
 @app.get("/")
 def index():
